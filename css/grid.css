@@ -1,3 +1,10 @@
+/* Resume Preview */
+.resumeContainer {
+    border: 5px solid var(--color-blue);
+    width: 90%;
+    height: 425px;
+}
+
 /* SMALL SCREEN */
 section.grid_1 {
     display: grid;
@@ -24,5 +31,10 @@ section.grid_1x4 {
         background: var(--color-light-gray);
         padding: 20px;
         border-radius: 25px;
+    }
+    .resumeContainer {
+        border: 5px solid var(--color-blue);
+        width: 60%;
+        height: 850px;
     }
 }

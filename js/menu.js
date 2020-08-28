@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     if (event.target.matches(".hmenu span")) {
       event.target.closest(".hmenu").classList.toggle("open");
     } else if (event.target.matches(".hmenu a")) {
-      event.preventDefault();
+      // event.preventDefault();
 
       var theParent = event.target.parentNode;
       var theGParent = theParent.parentNode;
@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
       theGParent.classList.toggle("open");
 
       //3. update the label text.
-      theParent.classList.add("active");
-      replaceLabel();
+      // theParent.classList.add("active");
+      // replaceLabel();
     }
   });
 });
