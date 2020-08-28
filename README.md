@@ -1,3 +1,3 @@
-# [dev-bhatia.github.io](https://dev-bhatia.github.io)
+# My personal website
 
-A personal website. Just for fun.
+# [devbhatia.me](https://www.devbhatia.me)

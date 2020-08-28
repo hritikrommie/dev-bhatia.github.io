@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- HEAD -->
     <head>
         <!-- DEFAULTS -->
         <meta charset="utf-8">
@@ -8,76 +9,107 @@
         <!-- SITE TITLE ON TAB-->
         <title>Dev Bhatia</title>
 
-        <!-- FAVICON -->
-        <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">    
-
-        <!-- CSS Reference -->
-        <link rel="stylesheet" type="text/css" href="css/timeline.css">
-        <link rel="stylesheet" type="text/css" href="css/root.css">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/text.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css">
+
+        <!-- FONT AWESOME ICONS -->
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     </head>
 
+    <!-- BODY -->
     <body>
-    <!-- HEADER -->  
-    <br><br><br.></br.>
-    <a href="/"><h1>Dev Bhatia</h1></a><br>
-    <center>
-    <section class="grid_1x3">
-        <aside>
-            <a href="about.html">ABOUT</a>
-        </aside>
-        <aside>
-            <a href="projects.html">PROJECTS</a>
-        </aside>
-        <aside>
-            <a href="resume.html">RESUME</a>
-        </aside>
-    </section>
-    </center>
-    <br>
+        <!-- TITLE -->  
+        <h1>Dev Bhatia</h1>
 
-    <aside style="margin-bottom: 3em; background-color: rgb(242, 242, 242);">
-        <h2>Hello</h2>
-        <p>
-            I'm Dev and I study 
-            <span id="a1">Electrical&nbsp;Engineering&nbsp;at&nbsp;UC&nbsp;San&nbsp;Diego.</span>
-            <br>
-            In the coming months, I'll be completing undergrad and 
-            <span id="a2">graduating in March 2021.</span>
-            <br>
-
-            I've enhanced my education through
-            <span id="a3">prior&nbsp;internships&nbsp;at&nbsp;Tesla,&nbsp;Microsoft,&nbsp;&&nbsp;Intel.</span>
-
-            <br>
-            Currently, I'm
-            <span id="a5">seeking&nbsp;New&nbsp;Grad&nbsp;opportunites</span>
-            to build the technologies of tomorrow.
-            <br>    
-
-            <a href="mailto: devjbhatia@gmail.com" style="font-size: 20px; font-weight: 600;">devjbhatia@gmail.com</a>
-        </p>
-    </aside>
-
-    <!-- SCRIPTS -->
-    <script type="module" src="js/scribble-index.js"></script>
-
-    <br><br>
-
-    <!-- FOOTER -->
-    <footer>
+        <!-- NAVIGATION -->
         <center>
-        <section class="grid_1x4">
-            <aside>
-                <a href="https://www.linkedin.com/in/dev-bhatia" target="_blank" style="font-size: 20px; font-weight: 400;"><i style="font-size:24px; color:#2867B2;" class="fab fa-linkedin"></i></a>
-            </aside>
-            <aside><a href="https://medium.com/@devjbhatia" target="_blank" style="font-size: 20px; font-weight: 400;"><i class='fab fa-medium-m' style='font-size:24px; color: #000'></i></a></aside>
-            <aside><a href="https://www.github.com/dev-bhatia" target="_blank" style="font-size: 20px; font-weight: 400;"><i style="font-size:24px; color:#666E77;" class="fab fa-github"></i></a></aside>
-            <aside><a href="mailto: devjbhatia@gmail.com" style="font-size: 20px; font-weight: 400;"><i class="far fa-envelope" style="font-size:24px; color: #000"></i></a></aside>
-        </section>
+        <menu class='hmenu' style="margin-bottom: 35px;">
+            <menuitem style="background-color: rgb(242, 242, 242);"><span><i class="fas fa-bars"></i> Menu</span></menuitem>
+            <menuitem class='active'>
+                <a href='/'>  ABOUT </a>
+            </menuitem>
+            <menuitem>
+                <a href='html/projects.html'> PROJECTS </a>
+            </menuitem>
+            <menuitem>
+                <a href='html/random.html'> RANDOM </a>
+            </menuitem>
+            <menuitem>
+                <a href='html/resume.html'> RESUME </a>
+            </menuitem>
+        </menu>
         </center>
-    </footer>
+        
+        <!-- ABOUT -->
+        <center>
+        <section class="grid_1">
+            <aside>
+                <h2>Hello</h2>
+                <p>
+                    I'm Dev, a rising senior at UC San Diego 
+                    studying electrical engineering with interests 
+                    in software & data science. 
+                    
+                    Right now, I'm seeking&nbsp;new&nbsp;grad&nbsp;opportunties.
+                </p>
+
+                <p>
+                    I've been fortunate to enhance my education through internships at 
+                    Tesla, Microsoft, and Intel. Additonally, I've been building some <a href="html/projects.html" style="font-weight: normal; font-size: calc(1rem + 0.25vw); color: var(--color-blue);">fun projects</a> in my spare time.
+                </p>
+
+                <p>
+                    <b>Brief Timeline</b><br>
+                    <h3> <i class="fas fa-graduation-cap" style="color: var(--color-blue2);"></i> UC San Diego </h3>
+                    <h4> Graduated March 2021 </h4>
+                    <h4> B.S. Electrical Engineering </h4>
+                    <br>
+                    <h3> <i class="fas fa-map-marker-alt" style="color: var(--color-red);"></i> Microsoft </h3>
+                    <h4> Summer 2020 </h4>
+                    <h4> Software Eng. Intern <br> AI Builder UX </h4>
+                    <br>
+                    <h3> <i class="fas fa-map-marker-alt" style="color: var(--color-red);"></i> Intel </h3>
+                    <h4> Summer 2019 </h4>
+                    <h4> Power & Performance Eng. Intern <br> Internet of Things Group </h4>
+                    <br>
+                    <h3> <i class="fas fa-map-marker-alt" style="color: var(--color-red);"></i> Tesla </h3>
+                    <h4> Fall 2018 </h4>
+                    <h4> Firmware Validation Intern <br> Production Vehicle Firmware </h4>
+                    
+                </p>
+
+                <!-- <p>
+                    Occasionally, I'll write on Medium. Usually tutorials on git or 
+                    
+                    <br>
+                    <a href="https://medium.com/@devjbhatia" target="_blank" style="font-weight: normal; font-size: calc(1rem + 0.25vw); color: var(--color-blue);"><i class='fab fa-medium-m' style='font-size:24px; color: #000'></i> My Medium (blog?)</a>
+                </p> -->
+
+                <p>
+                    <b>About this site</b><br>
+                    This site exists to organize my projects, potentially a blog, and other things I pick up along the way.
+                    <a href="public/LICENSES.txt" target="_blank" style="font-weight: normal; font-size: calc(1rem + 0.25vw); color: var(--color-blue);">View licenses</a>
+                    for open-source contributions used to build this site. 
+                    
+                </p>
+
+                <h2>Contact</h2>
+                <p>
+                    <a href="mailto: devjbhatia@gmail.com" style="font-weight: normal; font-size: calc(1rem + 0.25vw); color: var(--color-blue);"><i class="fas fa-envelope" style="font-size:24px; color:#000;"></i> devjbhatia@gmail.com</a><br>
+                    <a href="https://www.linkedin.com/in/dev-bhatia" target="_blank" style="font-weight: normal; font-size: calc(1rem + 0.25vw); color: var(--color-blue);"><i style="font-size:24px; color:#000;" class="fab fa-linkedin-in"></i>&nbsp;Connect&nbsp;on&nbsp;LinkedIn</a><br>
+                    <a href="https://www.linkedin.com/in/dev-bhatia" target="_blank" style="font-weight: normal; font-size: calc(1rem + 0.25vw); color: var(--color-blue);"><i style="font-size:24px; color: #000000;" class="fab fa-github"></i>&nbsp;My&nbsp;Github</a><br>
+                </p>
+            </aside>
+        </section>
+        <br>
+        </center>
+        <br>
+        <br>
+        <br>
+
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="js/menu.js"></script>
     </body>
 </html>
