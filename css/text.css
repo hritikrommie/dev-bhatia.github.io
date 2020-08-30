@@ -82,6 +82,7 @@ h4 {
 
 h4 a, p a {
     font-size: inherit;
+    color: var(--color-gray);
 }
 
 p {
