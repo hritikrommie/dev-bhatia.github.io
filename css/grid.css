@@ -13,6 +13,15 @@ section.grid_1 {
     background: var(--background);
 }
 
+section.grid_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 75%;
+    padding: 10px;
+    border-radius: 15px;
+    background: var(--color-yellow);
+}
+
 section.grid_1x4 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -28,7 +37,13 @@ section.grid_1x4 {
     }
     section.grid_1 {
         width: 50%;
-        background: var(--color-light-gray);
+        background: var(--color-light-gray2);
+        padding: 20px;
+        border-radius: 25px;
+    }
+    section.grid_2 {
+        width: 50%;
+        background: var(--color-yellow);
         padding: 20px;
         border-radius: 25px;
     }

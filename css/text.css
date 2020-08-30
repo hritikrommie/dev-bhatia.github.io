@@ -19,11 +19,12 @@ html { font-family: 'Inter', sans-serif; }
     --color-green: #98ff86;
     --color-blue: #8599ff;
     --color-gray: #787878;
+    --color-yellow: rgb(249, 249, 249);
     --color-red: #f08080;
     --color-blue2: rgb(78, 128, 255);
     --color-youtube-red: #FF0000;
-    --color-light-gray: rgb(242, 242, 242);
-    --color-light-gray2: rgba(235, 235, 235, );
+    --color-light-gray1: rgb(220, 220, 220);
+    --color-light-gray2: rgba(235, 235, 235, 1);
     --color-gray-2: #5c5c5c;   
     --background: #FFF;
 
@@ -148,6 +149,7 @@ a:hover:before, a:focus:before, a:active:before {
 hr {
     width: 55%;
     margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 b {
@@ -169,8 +171,9 @@ b {
         margin-bottom: 10px;
     }
     hr {
-        width: 0%;
-        margin-bottom: 0px;
+        width: 75%;
+        margin-top: 0px;
+        margin-bottom: 15px;
     }
     h4 {
         font-size: calc(1rem + 0vw);
