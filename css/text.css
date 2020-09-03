@@ -21,7 +21,7 @@ html { font-family: 'Inter', sans-serif; }
     --color-gray: #787878;
     --color-yellow: rgb(249, 249, 249);
     --color-red: #ff5757;
-    --color-blue2: rgb(78, 128, 255);
+    --color-blue2: rgb(70, 108, 205);
     --color-youtube-red: #FF0000;
     --color-light-gray1: rgb(220, 220, 220);
     --color-light-gray2: rgba(235, 235, 235, 1);
@@ -80,11 +80,6 @@ h4 {
     text-align: left;
 }
 
-h4 a, p a {
-    font-size: inherit;
-    color: var(--color-gray);
-}
-
 p {
     font-weight: normal;
     font-size: calc(1rem + 0.25vw);
@@ -94,15 +89,21 @@ p {
     line-height: 2;   
 }
 
+h4 a, p a {
+    font-size: inherit;
+    color: var(--color-gray);
+}
+
 footer {
-    position: fixed;
+    position: absolute;
+    right: 0;
     bottom: 0;
+    left: 0;
     width: 100%;
-    background-color: var(--background);
+    color: var(--color-gray);
     font-size: calc(0.5rem + 0.5vw);
-    font-weight: 500;
-    line-height: 1;
-    text-align: right;
+    font-weight: 200;
+    text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
 }

@@ -1,7 +1,5 @@
 This file contains all licenses for open-source contirbutions used to build this site.
 
-***********************************************************************************
-
 Copyright (c) 2016-2020 The Inter Project Authors
 https://github.com/rsms/inter
 
@@ -96,7 +94,7 @@ DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 
-***********************************************************************************
+
 
 Copyright (c) 2020 by Chris Coyier  (https://codepen.io/chriscoyier/pen/JjGEpXK)
 
@@ -118,7 +116,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 SOFTWARE.
 
-***********************************************************************************
+
 
 Copyright 2017 Ian Lunn Design Limited
 
@@ -140,12 +138,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 SOFTWARE.
 
-***********************************************************************************
+
 
 Attribution is no longer required as of Font Awesome 3.0 but is much appreciated: 
 "Font Awesome by Dave Gandy - http://fontawesome.io".
 
-***********************************************************************************
+
 
 Copyright (c) 2020 by Niels Voogt (https://codepen.io/NielsVoogt/pen/MbMMxv)
 
@@ -167,7 +165,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
 SOFTWARE.
 
-***********************************************************************************
+
 
 Copyright (c) 2020 by rick gessner (https://codepen.io/rickgessner/pen/vYNNLye)
 
