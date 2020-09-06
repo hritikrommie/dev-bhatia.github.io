@@ -20,12 +20,10 @@ html { font-family: 'Inter', sans-serif; }
     --color-blue: #8599ff;
     --color-gray: #787878;
     --color-yellow: rgb(249, 249, 249);
-    --color-red: #ff5757;
     --color-blue2: rgb(70, 108, 205);
     --color-youtube-red: #FF0000;
     --color-light-gray1: rgb(220, 220, 220);
     --color-light-gray2: rgba(235, 235, 235, 1);
-    --color-gray-2: #5c5c5c;   
     --background: #FFF;
 
     /* menu */
@@ -132,6 +130,7 @@ a:before {
     left: 0;
     right: 100%;
     bottom: 20%;
+    color: #000;
     background: var(--color-green);
     height: 10px;
     -webkit-transition-property: right;
@@ -164,6 +163,13 @@ b {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent; */
+}
+
+sup {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: calc(1rem + 0.3vw);
 }
 
 /* for small screens */
