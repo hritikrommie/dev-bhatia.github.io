@@ -37,7 +37,7 @@ section.grid_1x4 {
     }
     section.grid_1 {
         width: 50%;
-        background: var(--color-light-gray2);
+        /* background: var(--color-light-gray2); */
         padding: 20px;
         border-radius: 25px;
     }
