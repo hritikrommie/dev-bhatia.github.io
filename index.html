@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="css/text.css">
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" type="text/css" href="css/modal.css">
 
         <!-- FONT AWESOME ICONS -->
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -88,12 +89,18 @@
 
                 <h2>Contact</h2>
                 <p>
-                    <a href="mailto: devjbhatia@gmail.com" style="font-size: calc(1rem + 0.25vw); color: #000;"><i class="far fa-envelope" style="font-size:24px; color: #000;"></i> devjbhatia@gmail.com</a><br>
+                    <a onclick="ShowSecond()" class="btn" id="email" data-clipboard-text="devjbhatia@gmail.com" style="font-size: calc(1rem + 0.25vw); color: #000;"><i style="font-size:24px;" class="far fa-envelope" style="font-size:24px; color: #000;"></i>&nbsp;Email</a><br>
                     <a href="https://www.linkedin.com/in/dev-bhatia" target="_blank" style="font-size: calc(1rem + 0.25vw); color: #000;"><i style="font-size:24px;" class="fab fa-linkedin"></i>&nbsp;Connect&nbsp;on&nbsp;LinkedIn</a><br>
+                    <div class="modal hide" id="modal-notif">
+                        <p>Copied to Clipboard!</p>
+                      </div>
                 </p>
 
             </aside>
         </section>
+        <div>
+            
+            </div>
         <br>
         </center>
 
@@ -102,15 +109,15 @@
         <br>
         <br>
         <br>
-        <!-- FOOTER -->
-        <footer>    
-            <div>
-            <h3>devjbhatia@gmail.com</h3>
-            </div>
-        </footer>
+            
+
+        
 
         <!-- SCRIPTS -->
+        <script type="text/javascript" src="js/clipboard.min.js"></script>
+        <script type="text/javascript" src="js/copy.js"></script>
         <script type="text/javascript" src="js/menu.js"></script>
         <script type="module" src="js/index_text.js"></script>
+     
     </body>
 </html>
