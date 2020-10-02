@@ -29,7 +29,11 @@
             <menu class='hmenu' style="margin-bottom: 35px;">
                 <menuitem class='active' style="background-color: rgb(242, 242, 242);">
                     <span style="font-size: calc(1rem + 0.6vw);"> 
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9776; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                        &#9776; 
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </span>
                 </menuitem>
                 <menuitem>
@@ -56,7 +60,7 @@
                     I'm Dev, a rising senior at UC San Diego. 
                     I study electrical engineering with interests 
                     in software & data science. In my spare time, I've been working on some 
-                    <a href="html/projects.html" style="color: var(--color-gray);">
+                    <a href="html/projects.html">
                         fun projects
                     </a>.
                     
@@ -89,11 +93,11 @@
 
                 <h2>Contact</h2>
                 <p>
-                    <a onclick="ShowSecond()" class="btn" id="email" data-clipboard-text="devjbhatia@gmail.com" style="font-size: calc(1rem + 0.25vw); color: #000;"><i style="font-size:24px;" class="far fa-envelope" style="font-size:24px; color: #000;"></i>&nbsp;Email</a><br>
+                    <a>
+                        <i style="font-size:24px;" class="far fa-envelope" style="font-size:24px; color: #000;"></i>
+                        <span style="cursor: pointer" onclick="this.textContent = ('devjbhatia' + '@gmail' + String.fromCharCode(46) + 'com'); this.onclick = null; this.style.cursor='default'"> Email - Click to Reveal</span></a>
+                    <br />
                     <a href="https://www.linkedin.com/in/dev-bhatia" target="_blank" style="font-size: calc(1rem + 0.25vw); color: #000;"><i style="font-size:24px;" class="fab fa-linkedin"></i>&nbsp;Connect&nbsp;on&nbsp;LinkedIn</a><br>
-                    <div class="modal hide" id="modal-notif">
-                        <p>Copied to Clipboard!</p>
-                      </div>
                 </p>
 
             </aside>
@@ -118,6 +122,5 @@
         <script type="text/javascript" src="js/copy.js"></script>
         <script type="text/javascript" src="js/menu.js"></script>
         <script type="module" src="js/index_text.js"></script>
-     
     </body>
 </html>

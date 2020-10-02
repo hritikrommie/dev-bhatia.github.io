@@ -13,10 +13,10 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 /*Fade in animation*/
-@keyframes fade-in{
+/* @keyframes fade-in{
     0%{opacity: 0;}
     100%{opacity: 1;}
-}
+} */
 
 /* color palatte */
 :root {
@@ -93,15 +93,15 @@ p {
 
 h4 a, p a {
     font-size: inherit;
-    color: var(--color-gray);
+    color: #000;
 }
 
-section, footer{
+/* section, footer{
     animation: fade-in 1s ease;
     animation-delay: 0.2s;
     animation-fill-mode: forwards;
     opacity: 0;
-}
+} */
 footer {
     display: flex;
     justify-content: center;
